@@ -1,0 +1,99 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#title {
+ position: relative;
+ left: 46%;
+
+}
+
+#belens {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#pantojas {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#lenguajes {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#orbitofrontales {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+#psicopatas {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.button {
+    margin-top: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid peru;
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.button:hover {
+    background-color: peru; 
+    color: white;
+    
+  }
+
+label{
+    margin-top: 40px;
+    background-color: peru;
+    color: black;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+input {
+    height: 1px;
+    width: 1px;
+}
+
+label:hover {
+    background:#eee;
+    cursor:pointer;
+   }
+
+input:checked+label{
+    background-color:#eee;
+  }
+
+.last-button {
+    margin-bottom: 45px;
+}

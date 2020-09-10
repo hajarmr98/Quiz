@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 id="title">Random Quiz</h1>
+    </header>
+    <main>
+    <form id="belens" name="belens" method="POST">
+        <legend>¿Cuál es la edad de Belen Esteban?</legend>
+        <div>
+            <input type="radio" id="56" name="belen" value="56" required>
+        <label for="56" class="respuesta1">56 años</label>
+        
+        <input type="radio" id="46" name="belen" value="cuarenta-seis" required>
+        <label for="46" id="cuarenta-seis" id="46" class="respuesta1">46 años</label>
+         </div>
+         <div >
+             <input type="radio" id="1500" name="belen" value="1500" required>
+             <label for="1500" class="respuesta1">1500 meses</label>
+
+             <input type="radio" id="36" name="belen" value="36" required>
+             <label for="36" class="respuesta1">36 años</label>
+         </div>
+        <button type="submit" class="button">Comprobar datos</button>
+    </form>
+    
+    
+    <form id="pantojas" name="pantojas" method="POST">
+        <legend>Señala a los descendientes de la Pantoja:</legend>
+        <div>
+        <input type="radio" id="paquirrinChabelita" name="pantoja" value="paquirrin-chabelita" required>
+        <label for="paquirrinChabelita" id="paquirrin-chabelita" class="respuesta2">Paquirrín y Chabelita</label>
+        
+        <input type="radio" id="paquirrin" name="pantoja" value="paquirrin" required>
+        <label for="paquirrin" class="respuesta2">Paquirrín</label>
+        </div>
+        <div>
+        <input type="radio" id="julian" name="pantoja" value="julian" required>
+        <label for="julian" class="respuesta2">Julían Muñoz</label>
+        
+        <input type="radio" id="paquirri" name="pantoja" value="paquirri" required>
+        <label for="paquirri" class="respuesta2">Paquirri</label>
+        </div>
+        <button type="submit" class="button">Comprobar datos</button>
+        
+    </form>
+
+    
+    <form id="lenguajes" name="lenguajes" method="POST">
+           <legend>¿Cual de estos lenguajes aporta swag a tu web app?</legend>
+            <div>
+            <input type="radio" id="HTML5" name="lenguaje" value="HTML5" required>
+           <label for="HTML5" class="respuesta3"> HTML5 </label>
+           
+           <input type="radio" id="CSS3" name="lenguaje" value="css3" required>
+           <label for="CSS3" id="css3" class="respuesta3"> CSS3 </label>
+             </div>
+             <div>
+            <input type="radio" id="JavaScript" name="lenguaje" value="JavaScript" required>
+           <label for="JavaScript" class="respuesta3"> JavaScript </label>
+   
+           <input type="radio" id="SQL" name="lenguaje" value="SQL" required>
+           <label for="SQL" class="respuesta3"> SQL </label>
+        </div>
+           <button type="submit" class="button">Comprobar datos</button>
+           
+    </form>
+
+    <form id="orbitofrontales" name="orbitofrontales" method="POST">
+        <legend>El síndrome orbitofrontal se caracteriza por: </legend>
+        <div>
+        <input type="radio" id="anomia" name="orbitofrontal" value="Anomia" required>
+        <label for="anomia" class="respuesta4"> Anomia </label>
+        
+        <input type="radio" id="impulsividad" name="orbitofrontal" value="impulsiv" required>
+        <label for="impulsividad" id="impulsiv" class="respuesta4">  Impulsividad y deshinibición sexual </label>
+        </div>
+        <div>
+        <input type="radio" id="CI" name="orbitofrontal" value="CI" required>
+        <label for="CI" class="respuesta4"> CI límite </label>
+
+        <input type="radio" id="Olvido" name="orbitofrontal" value="Olvido" required>
+        <label for="Olvido" class="respuesta4"> Olvido </label>
+        </div>
+        <button type="submit" class="button">Comprobar datos</button>
+        
+    </form>
+    <form  id="psicopatas" name="psicopatas" method="POST">
+        <legend> La psicopatía primaria se caracteriza por: </legend>
+        <div>
+        <input type="radio" id="re-re" name="psicopata" value="Anomia" required>
+        <label for="re-re" class="respuesta5"> Respuestas Reactivas </label>
+        
+        <input type="radio" id="creatividad" name="psicopata" value="creatividad" required>
+        <label for="creatividad" id="creatividad" class="respuesta5"> Alta creatividad </label>
+        </div>
+        <div>
+        <input type="radio" id="dolor" name="psicopata" value="dol" required>
+        <label for="dolor" id="dol" class="respuesta5"> Baja sensibilidad al dolor </label>
+
+        <input type="radio" id="malos" name="psicopata" value="malos" required>
+        <label for="malos" class="respuesta5"> Ser malas personas </label>
+        </div>
+        <button id="last-button"type="submit" class="button">Comprobar datos</button>
+        
+    </form>
+
+    
+</main>
+    <script src="js/index.js"></script>
+</body>
+</html>
